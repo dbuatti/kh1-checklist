@@ -238,6 +238,9 @@ body {
   font-weight: 700;
   color: #e8eaed;
   margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .card-title--story {
@@ -268,6 +271,9 @@ body {
   font-weight: 500;
   color: #9aa0a6;
   margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .card-sub--story {
@@ -491,6 +497,9 @@ body {
   transition: color 0.15s, text-decoration 0.15s;
   flex: 1;
   min-width: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .label.done {
@@ -505,7 +514,10 @@ body {
   font-weight: 600;
   color: #94a3b8;
   margin-left: 8px;
-  white-space: nowrap;
+  flex-shrink: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .note.done {
@@ -572,10 +584,9 @@ body {
   font-size: 14px;
   font-weight: 600;
   color: #e8eaed;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 120px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .chapter-nav-btn--story .nav-title {
